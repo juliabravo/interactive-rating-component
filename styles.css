@@ -107,3 +107,21 @@ p {
 .submit-btn:hover {
     background-color: var(--white);
 }
+
+@media (max-width: 375px) {
+    .container {
+        width: 325px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .circle {
+        padding: 20px;
+    }
+}
